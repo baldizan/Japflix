@@ -1,0 +1,81 @@
+* {
+    color: white;
+    font-family: 'Montserrat', 'Serif';
+}
+
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content {
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+}
+
+.checked {
+    color: orange;
+}
+
+.offcanvas-top {
+    height: fit-content;
+}
+
+.filmDetails {
+    display: none;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+}
+
+.detailsHeader {
+    display: flex;
+}
+
+.detailsButton {
+    margin: .5em 3em 3em auto;
+    padding: .5em 1.5em;
+    border-radius: .5em;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+}
+
+.additionalInfo {
+    display: none;
+    margin-top: 1em;
+}
+
+.infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.addInfoHeading {
+    font-size: 1rem;
+}
+
+.addInfoHeading {
+    flex: 1 20%;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+.addInfoData {
+    flex: 1 1 30%;
+}
